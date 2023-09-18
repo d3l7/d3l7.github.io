@@ -1,13 +1,15 @@
 body {
-    background-color: aquamarine;
+    background: rgb(124, 174, 158);
+    font-family: Comic Sans MS, Comic Sans, cursive;
   }
  
-p {
+.div1 {
     font-family:Comic Sans MS, Comic Sans, cursive;
+    background: rgb(212, 96, 96,0.9);
+    border: 3px solid black;
+    
   }
 
-.firstpara {
-  background: rgb(212, 96, 96);
-  padding: 1000px
-  
+.button {
+    font-family:Comic Sans MS, Comic Sans, cursive;
 }
