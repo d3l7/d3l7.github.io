@@ -1,0 +1,13 @@
+body {
+    background-color: aquamarine;
+  }
+ 
+p {
+    font-family:Comic Sans MS, Comic Sans, cursive;
+  }
+
+.firstpara {
+  background: rgb(212, 96, 96);
+  padding: 1000px
+  
+}
