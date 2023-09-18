@@ -13,3 +13,8 @@ body {
 .button {
     font-family:Comic Sans MS, Comic Sans, cursive;
 }
+
+.jermabutton {
+    background: rgb(124, 174, 158);
+    border: 5px solid rgb(124, 174, 158)
+}

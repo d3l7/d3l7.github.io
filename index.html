@@ -6,12 +6,15 @@
   <meta name="viewport" content="width=device-width"/>
   <title>d3l7.github.io</title>
   <link rel = "stylesheet" href = "styles.css">
-  <script src="javascript.js"></script>
  </head>
  
  <body>
+  <audio id="audio">
+    <source src="cartoon-splat.mp3" type="audio/mpeg">
+  </audio>
+
   <h1>Hello World</h1>
-  <pre> a      b      c      d      e      f      g      h      i      j      k       l       m      n      o      p</pre>
+  <pre id="menu"> a      b      c      d      e      f      g      h      i      j      k       l       m      n      o      p</pre>
   <div class = "div1">
     <p>Where are all the [Pipis]  
     <br>found them <b> ha </b> </p>
@@ -20,11 +23,19 @@
   </div>
   
   <h3>Jerma</h3>
-  <button type="button" onclick
-  <img src="jermasus.jfif" alt="jerma sus face" width = "400" height = "400" />
-  <audio controls>
-    <embed src = "" width = "32" height = "32"></embed>
-  </audio>
+  <button class="jermabutton" type="button" value="yes" onclick="playAudio()" >
+     <img src="jermasus.jfif" alt="jerma sus face" width = "425" height = "425" />
+  </button>
+  
+  <script>
+    var x = document.getElementById("audio");
+
+    function playAudio() {
+        x.play();
+    }
+
+  </script>
+
   <p> I have some things  to say</p>
 
   <u1>
