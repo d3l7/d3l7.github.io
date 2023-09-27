@@ -1,8 +1,6 @@
 body {
-    background: linear-gradient(to bottom right, rgb(35, 35, 35), rgb(76, 75, 75));
-    background-attachment: fixed;
-    font-family: "Open Sans";
-    color: white 
+    background: rgb(124, 174, 158);
+    font-family: Comic Sans MS, Comic Sans, cursive;
   }
  
 .div1 {
