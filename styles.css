@@ -1,22 +1,79 @@
-body {
-    background: linear-gradient(to bottom right, rgb(35, 35, 35), rgb(76, 75, 75));
-    background-attachment: fixed;
-    font-family: "Open Sans";
-    color: white 
-  }
- 
-.div1 {
-    font-family:Comic Sans MS, Comic Sans, cursive;
-    background: rgb(212, 96, 96,0.9);
-    border: 3px solid black;
-    
-  }
-
-.button {
-    font-family:Comic Sans MS, Comic Sans, cursive;
+* {
+  box-sizing: border-box;
 }
 
-.jermabutton {
-    background: rgb(124, 174, 158);
-    border: 5px solid rgb(124, 174, 158)
+body {
+    margin: 0px;
+    background: rgb(42, 41, 54);
+    font-family: "Open Sans";
+    color: white;
+  }
+
+.nav-bar{
+  overflow: hidden;
+  background-color: rgb(30, 30, 30);
+}
+
+.nav-bar a:link {
+  float: left;
+  display: block;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  background-color: rgb(15, 15, 15);
+}
+
+.nav-bar a:visited{
+  color:white  
+}
+
+.column {
+  float: left;
+  padding: 15px;
+  width: 50%;
+  background-color: rgb(40, 40, 40);
+  font-size: 20px;
+  text-align: center;
+}
+
+.row::after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%
+  }
+  
+}
+
+u1 {
+  list-style: none;
+}
+
+.py {
+  height: 20px;
+  width: 20px;
+}
+
+.html{
+  height: 25px;
+  width: 25px;
+}
+
+.css{
+  height: 25px;
+  width: 25px;
+}
+
+.js{
+  height: 20px;
+  width: 20px;
 }
