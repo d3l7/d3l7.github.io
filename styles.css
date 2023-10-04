@@ -61,9 +61,19 @@ body {
 
 @media (max-width:700px) {
   .flex-container {
-    flex-direction: column
+    flex-direction: column;
+    width: 100%;
   }
-  
+
+  .column{ 
+   float: left;
+   padding: 15px;
+   flex: 1;
+   width: 100%;
+   background-color: rgb(40, 40, 40);
+   font-size: 20px;
+   text-align: center;
+  }
 }
 
 .footer {
